@@ -37,6 +37,7 @@ qwq:latest            009cb3f08d74    19 GB     2 days ago
 gemma3:27b            30ddded7fba6    17 GB     3 days ago      
 gemma:2b              b50d6c999e59    1.7 GB    3 days ago
 ```
+You can check https://ollama.com/ for avaliable model download
 
 ### 2. Start ngrok Tunnel
 
