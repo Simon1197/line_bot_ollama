@@ -39,6 +39,12 @@ gemma:2b              b50d6c999e59    1.7 GB    3 days ago
 ```
 You can check https://ollama.com/ for avaliable model download
 
+Example for model download
+
+```
+ollama pull gemma3:4b
+```
+
 ### 2. Start ngrok Tunnel
 
 To expose your local server, run ngrok on the port your application uses (for example, port 5000):
