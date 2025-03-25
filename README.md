@@ -53,6 +53,15 @@ To expose your local server, run ngrok on the port your application uses (for ex
 ngrok http 5000
 ```
 
+debug for ngrok occupied
+
+```
+brew update
+brew reinstall --cask ngrok
+
+chmod +x /path/to/ngrok
+```
+
 After starting ngrok, you will receive a URL similar to:
 
 ```
@@ -66,6 +75,12 @@ Replace the current Webhook URL with the ngrok URL obtained in Step 2 (e.g., `ht
 This update allows LINE to send webhook events to your local environment.
 
 ### 4. Start the LINE Bot
+
+First start the ollama server
+
+```
+ollama serve
+```
 
 Finally, run the Python script to start your LINE bot:
 
